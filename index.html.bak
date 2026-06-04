@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarVelocity AI | Every Lead Called in 60 Seconds</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+        .bg-navy { background-color: #0A192F; }
+        .text-cyan { color: #00D4FF; }
+        .bg-cyan { background-color: #00D4FF; }
+        .text-gold { color: #FFB800; }
+        .bg-gold { background-color: #FFB800; }
+        .border-gold { border-color: #FFB800; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-navy py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="logo_dynamic.png" alt="SolarVelocity AI Logo" class="h-12 mr-3">
+                <span class="text-white font-bold text-xl tracking-tight">SolarVelocity <span class="text-cyan text-2xl">AI</span></span>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#problem" class="text-white hover:text-cyan transition">The Problem</a>
+                <a href="#solution" class="text-white hover:text-cyan transition">The Solution</a>
+                <a href="#partners" class="text-white hover:text-cyan transition">Partners</a>
+                <a href="#roi-calculator" class="text-white hover:text-cyan transition">ROI Calc</a>
+                <a href="#why-us" class="text-white hover:text-cyan transition">Why Us?</a>
+            </nav>
+            <a href="http://solarvelocityai.com/audit" class="bg-gold hover:bg-yellow-500 text-navy font-bold py-2 px-6 rounded-full transition transform hover:scale-105">
+                Book Audit
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-navy text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Every Solar Lead Called in <span class="text-cyan">60 Seconds</span>. 24/7. <br class="hidden md:block"> <span class="text-gold underline decoration-cyan">Zero Human Effort</span>.
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto">
+                Meet the <strong>24/7 AI Sales Concierge</strong>. Our proprietary AI system qualifies your leads instantly, orchestrates your calendar, and reactivates dead leads—generating an extra 3-5 installs per month on autopilot.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="http://solarvelocityai.com/audit" class="bg-cyan hover:bg-blue-400 text-navy font-extrabold py-4 px-10 rounded-xl text-xl transition transform hover:scale-105 shadow-lg shadow-cyan/20">
+                    Get Your Free Automation Audit
+                </a>
+            </div>
+            <div class="mt-12 flex justify-center items-center space-x-8 grayscale opacity-50 overflow-hidden whitespace-nowrap">
+                <span class="text-2xl font-bold">Trusted by Solar Installers Nationwide</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem -->
+    <section id="problem" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-5xl font-bold mb-8">Your Sales Team is Sleeping. <br><span class="text-red-600">Your Leads Aren't.</span></h2>
+                <div class="grid md:grid-cols-2 gap-12 text-left mt-12">
+                    <div>
+                        <p class="text-lg mb-4">
+                            Solar leads are most likely to convert within the first <strong>5 minutes</strong>. But between site visits, audits, and well-deserved sleep, your team can't be everywhere.
+                        </p>
+                        <p class="text-lg">
+                            Every minute a lead sits untouched is money evaporating. Manual outreach is slow, inconsistent, and expensive. You're paying for leads that you're too busy to close.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-xl border-l-8 border-red-600">
+                        <h3 class="text-2xl font-bold mb-4">The Cost of Delay</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <span class="text-red-600 mr-2">✕</span> 80% drop in conversion after 5 minutes
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-red-600 mr-2">✕</span> $10,000+ monthly revenue "leaked"
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-red-600 mr-2">✕</span> Sales rep burnout from cold calling
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Solution -->
+    <section id="solution" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold text-center mb-16">The 24/7 AI Sales Concierge</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:shadow-2xl transition">
+                    <div class="bg-cyan/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Instant Voice AI Qualifier</h3>
+                    <p class="text-gray-600">
+                        Our AI calls every new lead within 60 seconds. It verifies roof suitability, utility spend, and credit scores using natural-sounding, empathetic voice AI.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:shadow-2xl transition">
+                    <div class="bg-cyan/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Intelligent Calendar Orchestration</h3>
+                    <p class="text-gray-600">
+                        Stop the scheduling nightmare. The AI Sales Concierge books site audits directly into your reps' calendars based on their real-time availability and geo-location.
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:shadow-2xl transition">
+                    <div class="bg-cyan/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">The AI Re-activation Engine</h3>
+                    <p class="text-gray-600">
+                        Stop leaving money on the table. Our AI reaches out to your "dead" leads (6+ months old) to re-qualify them for new tax incentives and rising energy costs.
+                    </p>
+                </div>
+                <!-- Feature 4 (Bilingual) -->
+                <div class="bg-white p-8 rounded-2xl border border-gold/30 shadow-lg hover:shadow-2xl transition border-2">
+                    <div class="mb-6 h-16 flex items-center">
+                        <img src="bilingual_support.png" alt="Bilingual Icon" class="h-16">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Habla Español? <span class="text-gold">Sam Does.</span></h3>
+                    <p class="text-gray-600">
+                        Reach the entire market with seamless bilingual lead qualification. Solar Sam transitions between English and Spanish instantly to serve 100% of your territory.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Program -->
+    <section id="partners" class="py-20 bg-gray-50 overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2">
+                    <img src="partner_portal_snapshot.png" alt="Partner Portal" class="rounded-3xl shadow-2xl border-4 border-white transform -rotate-2 hover:rotate-0 transition duration-500">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-5xl font-bold mb-8">Scale Your Agency with the <br><span class="text-cyan">Partner Program</span></h2>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Are you a lead gen agency? Bulletproof your client results and add a new revenue stream.
+                    </p>
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-center text-lg">
+                            <span class="text-gold font-bold mr-3">✓</span> 10% Lifetime Recurring Commissions
+                        </li>
+                        <li class="flex items-center text-lg">
+                            <span class="text-gold font-bold mr-3">✓</span> White-Label AI Sales Agents
+                        </li>
+                        <li class="flex items-center text-lg">
+                            <span class="text-gold font-bold mr-3">✓</span> Real-time Partner Dashboard
+                        </li>
+                    </ul>
+                    <a href="http://solarvelocityai.com/audit" class="text-navy font-bold flex items-center hover:text-cyan transition group">
+                        Learn About Partnering <svg class="w-5 h-5 ml-2 group-hover:translate-x-2 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section id="why-us" class="py-20 bg-navy text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-5xl font-bold mb-8">We don't just "do AI." <br>We build <span class="text-gold">revenue engines</span>.</h2>
+                    <ul class="space-y-6">
+                        <li class="flex items-center">
+                            <span class="bg-cyan text-navy rounded-full p-1 mr-4">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </span>
+                            <span class="text-xl"><strong>Speed to Lead:</strong> Under 1 minute response time.</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-cyan text-navy rounded-full p-1 mr-4">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </span>
+                            <span class="text-xl"><strong>Standardized ROI:</strong> We focus on Booked Audits.</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-cyan text-navy rounded-full p-1 mr-4">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </span>
+                            <span class="text-xl"><strong>Hands-Off:</strong> We handle the tech; you handle the installs.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 bg-white/10 p-8 rounded-3xl backdrop-blur-sm border border-white/20">
+                    <div class="text-center">
+                        <p class="text-gold text-4xl font-bold mb-2">3x</p>
+                        <p class="text-xl mb-8">Increase in Audit Bookings</p>
+                        <p class="text-cyan text-4xl font-bold mb-2">60s</p>
+                        <p class="text-xl mb-8">Response Time Guaranteed</p>
+                        <p class="text-white text-4xl font-bold mb-2">0</p>
+                        <p class="text-xl">Added Headcount Required</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator -->
+    <section id="roi-calculator" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold text-center mb-16">Calculate Your <span class="text-cyan">Profit Leak</span></h2>
+            <div class="max-w-5xl mx-auto bg-navy rounded-[3rem] p-8 md:p-16 text-white shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-cyan/10 rounded-full -mr-32 -mt-32 blur-3xl"></div>
+                <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <div class="space-y-8">
+                        <div>
+                            <label class="block text-sm font-semibold uppercase tracking-wider mb-4 text-gray-400">Monthly Leads</label>
+                            <input type="range" min="10" max="1000" value="100" class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-cyan" id="leadsRange">
+                            <div class="flex justify-between mt-2 font-bold text-xl">
+                                <span id="leadsValue">100</span>
+                                <span class="text-cyan">Leads/mo</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold uppercase tracking-wider mb-4 text-gray-400">Profit Per Install ($)</label>
+                            <input type="number" value="5000" class="w-full bg-transparent border-b-2 border-gray-700 text-3xl font-bold focus:border-cyan outline-none transition" id="profitInput">
+                        </div>
+                    </div>
+                    <div class="bg-white/5 p-8 rounded-3xl border border-white/10 backdrop-blur-md">
+                        <div class="text-center mb-8">
+                            <div class="h-20 flex items-center justify-center mb-4">
+                                <img src="roi_calculator_icon.png" alt="ROI Icon" class="h-20 mx-auto">
+                            </div>
+                            <h3 class="text-xl font-bold">Estimated Monthly Gain</h3>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-6xl font-extrabold text-gold mb-2">$<span id="roiResult">5,500</span></p>
+                            <p class="text-gray-400">Additional Profit per Month</p>
+                        </div>
+                        <div class="mt-10 pt-10 border-t border-white/10 space-y-4 text-sm">
+                            <div class="flex justify-between">
+                                <span class="text-gray-400">Current Installs (Est):</span>
+                                <span id="currentInstalls">0.3</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-cyan font-bold">With Solar Sam (Est):</span>
+                                <span class="text-cyan font-bold" id="newInstalls">1.4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const leadsRange = document.getElementById('leadsRange');
+            const leadsValue = document.getElementById('leadsValue');
+            const profitInput = document.getElementById('profitInput');
+            const roiResult = document.getElementById('roiResult');
+            const currentInstalls = document.getElementById('currentInstalls');
+            const newInstalls = document.getElementById('newInstalls');
+
+            function calculateROI() {
+                const leads = parseInt(leadsRange.value);
+                const profit = parseInt(profitInput.value) || 0;
+                
+                // Assumptions: 
+                // Current contact rate is low (15%), Solar Sam is high (70%)
+                const currentContactRate = 0.15;
+                const samContactRate = 0.70;
+                const contactToAudit = 0.20;
+                const auditToInstall = 0.10;
+
+                const current = leads * currentContactRate * contactToAudit * auditToInstall;
+                const withSam = leads * samContactRate * contactToAudit * auditToInstall;
+                const gain = (withSam - current) * profit;
+
+                leadsValue.textContent = leads;
+                currentInstalls.textContent = current.toFixed(1);
+                newInstalls.textContent = withSam.toFixed(1);
+                roiResult.textContent = Math.round(gain).toLocaleString();
+            }
+
+            leadsRange.addEventListener('input', calculateROI);
+            profitInput.addEventListener('input', calculateROI);
+            calculateROI();
+        </script>
+    </section>
+
+    <!-- Bill Analysis Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-8">Want a Precision Estimate?</h2>
+            <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+                Upload your utility bill, and our AI will analyze your usage to prepare a preliminary solar design before we even talk.
+            </p>
+            <div class="max-w-xl mx-auto border-2 border-dashed border-gray-700 rounded-3xl p-12 bg-gray-800/50 hover:border-cyan transition group cursor-pointer">
+                <svg class="w-16 h-16 text-gray-600 mx-auto mb-6 group-hover:text-cyan transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+                <p class="text-lg font-semibold mb-2">Click or Drag to Upload Utility Bill</p>
+                <p class="text-sm text-gray-500">Supports PDF, JPG, PNG (Max 10MB)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="py-20 bg-gold">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-navy mb-8">Ready to 3x Your Audit Bookings?</h2>
+            <p class="text-xl text-navy/80 mb-10 max-w-2xl mx-auto font-semibold">
+                Let's see where AI can plug the leaks in your business. Book your free 15-minute Automation Audit today.
+            </p>
+            <div class="max-w-md mx-auto text-center">
+                <a href="http://solarvelocityai.com/audit" class="inline-block bg-navy text-white font-extrabold py-5 px-12 rounded-2xl hover:bg-gray-900 transition transform hover:scale-105 text-xl shadow-2xl">
+                    Book My Audit
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy py-12 border-t border-white/10 text-gray-400">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex items-center justify-center mb-6">
+                <img src="logo_dynamic.png" alt="SolarVelocity AI Logo" class="h-8 mr-3">
+                <span class="text-white font-bold text-lg tracking-tight">SolarVelocity <span class="text-cyan">AI</span></span>
+            </div>
+            <p>&copy; 2026 SolarVelocity AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "38c9ae2c-558a-49d9-affd-a168e25073b4",
+    "title": "UNBLOCK: Deploy solarvelocityai.com via GitHub",
+    "description": "Deploy landing page to solarvelocityai.com using GitHub integration or Netlify token. Prepare git repo in /home/team/shared/production_infrastructure/deploy/ and push once GitHub is linked.",
+    "status": "done",
+    "created_by": "lead",
+    "assigned_to": "agent-automation-engineer-3",
+    "result": "{\"summary\":\"### Task Completed: Prepared Landing Page Git Repository\\n\\nI have prepared the git repository for the SolarVelocity AI landing page to facilitate deployment to Netlify via GitHub integration.\\n\\n**What was done:**\\n1.  **Initialized Git Repository:** Created a new git repository in `/home/team/shared/production_infrastructure/deploy/`.\\n2.  **Configured .gitignore:** Added a `.gitignore` file to ensure `node_modules/` and other unnecessary files are not tracked.\\n3.  **Committed Assets:** Added and committed all landing page assets, including `index.html`, logo variants, audio files, and the `_redirects` file for Netlify.\\n4.  **Set Git Identity:** Configured a local git identity for the Automation Engineer to allow for commits.\\n\\n**Current Status:**\\n*   The repository is ready to be pushed to GitHub.\\n*   **BLOCKED:** Pushing to GitHub is currently blocked because GitHub access is not yet configured for the team (confirmed via `get_git_credentials`).\\n*   **Alternative:** If a Netlify Auth Token is provided, I can also perform a CLI deployment.\\n\\n**Next Steps:**\\n1.  **Owner/Lead Action:** Connect a GitHub account to the team and allow-list a repository for `solarvelocityai.com`.\\n2.  **Push to GitHub:** Once linked, I will push the local repository to the remote GitHub repository.\\n3.  **Link Netlify:** Connect the GitHub repository to the Netlify site `solarvelocity-ai` for automatic deployments.\",\"artifacts\":[\"/home/team/shared/production_infrastructure/deploy/.git\",\"/home/team/shared/production_infrastructure/deploy/.gitignore\"]}",
+    "created_at": "2026-06-04 04:31:06",
+    "updated_at": "2026-06-04 04:39:14"
+  },
+  {
+    "id": "ce095056-a945-4d8f-8940-8ee4555b4b99",
+    "title": "Push Landing Page to GitHub",
+    "description": "Check for GitHub access (GH_TOKEN or similar) and attempt to create a repository named 'solarvelocity-landing-page' and push the code from /home/team/shared/production_infrastructure/deploy. If successful, this will trigger the Netlify deployment.",
+    "status": "in-progress",
+    "created_by": "lead",
+    "assigned_to": "agent-automation-engineer-3",
+    "result": "",
+    "created_at": "2026-06-04 04:50:58",
+    "updated_at": "2026-06-04 05:14:23"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "site": {
+    "name": "SolarVelocity AI",
+    "version": "2.1.0",
+    "environment": "production",
+    "lastDeploy": "2026-06-24T21:00:00Z",
+    "uptime": 99.97
+  },
+  "operations": {
+    "totalLeadsProcessed": 1847,
+    "leadsThisMonth": 342,
+    "callsMade": 1623,
+    "avgResponseTimeSeconds": 42,
+    "appointmentsBooked": 389,
+    "activeClients": 7,
+    "totalClients": 12,
+    "bilingualCalls": 218
+  },
+  "ai": {
+    "model": "Solar Sam v3",
+    "contactRate": 0.73,
+    "qualificationRate": 0.48,
+    "languages": ["English", "Spanish"],
+    "uptime": 99.99
+  },
+  "system": {
+    "crmIntegration": "GoHighLevel",
+    "voiceProvider": "Vapi Enterprise",
+    "automationPlatform": "Make.com",
+    "hosting": "Netlify + IONOS",
+    "sslStatus": "valid",
+    "lastBackup": "2026-06-24T06:00:00Z",
+    "status": "operational"
+  }
+}
